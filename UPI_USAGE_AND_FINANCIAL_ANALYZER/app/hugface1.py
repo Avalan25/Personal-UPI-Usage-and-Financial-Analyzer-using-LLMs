@@ -1,6 +1,6 @@
 from huggingface_hub import InferenceClient
 
-client = InferenceClient("tiiuae/falcon-7b-instruct", token="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")
+client = InferenceClient("tiiuae/falcon-7b-instruct", token=" ")
 
 prompt = """
 You are a finance advisor. Here is the user's spending data:
